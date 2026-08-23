@@ -14,8 +14,9 @@ import { Description, Height, WbAuto } from "@mui/icons-material";
 import styles from "../style/videoComponent.module.css";
 import { Badge, IconButton } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import server from "../environment.js";
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 var connections = {};
 
